@@ -1,4 +1,4 @@
-a=10
+/*a=10
 a++
 console.log(a)
 --a
@@ -13,4 +13,11 @@ console.log(add)
 console.log(sub)
 console.log(m)
 console.log(d)
-//4.relational operator
+//4*/
+a=3 
+if(a^1 == a+1){
+    console.log("Even")
+}
+else{
+    console.log("Odd")
+}
