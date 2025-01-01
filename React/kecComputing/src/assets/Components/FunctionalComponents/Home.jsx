@@ -3,7 +3,11 @@ var Home=()=>{
     var styling={
         fontSize:"30px",
         textDecoration:"underline",
+<<<<<<< HEAD
         color:"white"
+=======
+        color:"blue"
+>>>>>>> 373b15d5c974abfc4c34fb601435f9ce7faac5d2
     }
    return (
     <header>
