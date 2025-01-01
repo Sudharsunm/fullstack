@@ -3,7 +3,7 @@ var Home=()=>{
     var styling={
         fontSize:"30px",
         textDecoration:"underline",
-        color:"black"
+        color:"white"
     }
    return (
     <header>
