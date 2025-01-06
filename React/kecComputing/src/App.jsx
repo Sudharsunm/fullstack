@@ -10,6 +10,8 @@ import UseEffect from './assets/Components/FunctionalComponents/UseEffect'
 import UseRef from './assets/Components/FunctionalComponents/UseRef'
 import UseContext from './assets/Components/FunctionalComponents/UseContext'
 import UseMemo from './assets/Components/FunctionalComponents/UseMemo'
+import Login from './assets/Components/FunctionalComponents/LoginSignup/Login'
+import SignUp from './assets/Components/FunctionalComponents/LoginSignup/SignUp'
 function App() {
 
   return (
@@ -24,7 +26,9 @@ function App() {
               <Route path='/use-ref' element={<UseRef/>}/>  
               <Route path='/use-con' element={<UseContext/>}/>
               <Route path='/use-memo' element={<UseMemo/>}/>  
-              <Route path='/contact' element={<Contact/>}/>   
+              <Route path='/contact' element={<Contact/>}/>
+              <Route path='/login' element={<Login/>}/>   
+              <Route path='/signup' element={<SignUp/>}/>      
              </Routes>
         </BrowserRouter>
 
